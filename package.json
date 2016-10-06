@@ -1,0 +1,37 @@
+{
+  "name": "laravel-elixir-css-rtl",
+  "version": "0.0.1",
+  "description": "Laravel Elixir CSS rtl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "laravel",
+    "elixir",
+    "rtl",
+    "css",
+    "gulp"
+  ],
+  "author": {
+    "name": "Yotam Sar Shalom"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.8.8",
+    "rtlcss": "^2.0.6",
+    "gulp-rename": "^1.2.2",
+    "laravel-elixir": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syotams/laravel-elixir-css-rtl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/syotams/laravel-elixir-css-rtl/issues"
+  },
+  "homepage": "https://github.com/syotams/laravel-elixir-css-rtl",
+  "devDependencies": {
+
+  }
+}
