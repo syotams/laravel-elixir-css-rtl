@@ -1,6 +1,6 @@
 {
   "name": "laravel-elixir-css-rtl",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Laravel Elixir CSS rtl",
   "main": "index.js",
   "scripts": {
@@ -31,7 +31,5 @@
     "url": "https://github.com/syotams/laravel-elixir-css-rtl/issues"
   },
   "homepage": "https://github.com/syotams/laravel-elixir-css-rtl",
-  "devDependencies": {
-
-  }
+  "devDependencies": {}
 }
