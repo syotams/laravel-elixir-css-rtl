@@ -4,6 +4,7 @@ The library converts css to support rtl using rtlcss package
 
 ```javascript
 var elixir = require("laravel-elixir");
+require('laravel-elixir-css-rtl');
 
 elixir(function(mix) {
     mix.cssrtl('css.css', 'public/assets/styles');
