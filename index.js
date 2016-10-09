@@ -13,8 +13,8 @@ elixir.extend('cssrtl', function(source, dest, postfix) {
 
     var config = elixir.config;
 
-    source = source || config.publicPath + '/styles/default.css';
-    dest = dest || config.publicPath + '/styles';
+    source = source || config.publicPath + '/assets/styles/default.css';
+    dest = dest || config.publicPath + '/assets/styles';
 
     new Task('css-rtl', function() {
         css(source, dest, postfix);
