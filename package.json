@@ -1,6 +1,6 @@
 {
   "name": "laravel-elixir-css-rtl",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Laravel Elixir CSS rtl",
   "main": "index.js",
   "scripts": {
