@@ -21,12 +21,18 @@ gulp.task('cssrtl', function() {
 function process(source, dest, postfix) {
     source  = source ? source : 'default.css';
     dest    = dest ? dest : './';
-    postfix = postfix ? postfix : 'rtl';
+
+    if(typeof postfix === 'undefined') {
+        postfix = '-rtl';
+    }
+    else {
+        postfix = postfix.length ? '-' + postfix : postfix;
+    }
 
     return gulp.src(source)
         .pipe( rtl() )
         .pipe(rename(function (path) {
-            path.basename += "-" + postfix;
+            path.basename += postfix;
         }))
         .pipe( gulp.dest(dest) );
 }
